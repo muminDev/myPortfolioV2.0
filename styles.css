@@ -21,6 +21,8 @@
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -54,7 +56,7 @@ header {
   font-size: var(--p-font);
   color: var(--text-color);
   font-weight: 500;
-  padding: 10px 27px;
+  padding: 10px 20px;
 }
 
 .navlist a::after {
@@ -263,7 +265,7 @@ header.sticky {
 }
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 5rem;
@@ -329,8 +331,8 @@ header.sticky {
 .contact {
   background: #8067f0eb;
   width: 64%;
-  margin: 100px auto;
-  padding: 70px 150px;
+  margin: 80px auto;
+  padding: 70px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,7 +342,7 @@ header.sticky {
   background-size: cover;
 }
 .center h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 3px;
   color: var(--bg-color);
@@ -382,7 +384,7 @@ header.sticky {
     transition: 0.3s;
   }
   section {
-    padding: 70px 3%;
+    padding: 60px 3%;
     transition: 0.3s;
   }
   .contact {
@@ -415,8 +417,8 @@ header.sticky {
   }
   .navlist a {
     display: block;
-    padding: 0.8rem;
-    margin: 0.8rem;
+    padding: 10px 15px;
+    margin: 8px;
     font-size: 20px;
     font-weight: 500;
     border-right: 2px solid var(--bg-color);
@@ -458,7 +460,7 @@ header.sticky {
     margin-bottom: 30px;
   }
   .about-img img {
-    width: 320px;
+    width: 280px;
     height: auto;
   }
   :root {
@@ -466,13 +468,16 @@ header.sticky {
     --h2-font: 2rem;
   }
   section {
-    padding: 40px 3%;
+    padding: 30px 3%;
     transition: 0.3s;
   }
 }
 
 @media (max-width: 540px) {
   .contact .action form input[type="email"] {
-    width: 310px;
+    width: 280px;
+  }
+  .col img {
+    width: 300px;
   }
 }

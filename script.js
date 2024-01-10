@@ -18,8 +18,8 @@ window.onscroll = () => {
 };
 
 const sr = ScrollReveal({
-  distance: "45px",
-  duration: 2200,
+  distance: "10px",
+  duration: 2000,
   reset: true,
 });
 sr.reveal(".home-text", { delay: 150, origin: "left" });
