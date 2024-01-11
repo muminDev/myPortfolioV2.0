@@ -169,6 +169,7 @@ span {
   border: none;
   border-radius: 30px;
   transition: ease 0.4s;
+  cursor: pointer;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -365,6 +366,9 @@ header.sticky {
   line-height: 26px;
   margin-bottom: 25px;
 }
+.center h4 {
+  color: rgb(48, 47, 47)
+}
 .contact .action form input[type="email"] {
   max-width: 100%;
   width: 470px;
@@ -376,6 +380,10 @@ header.sticky {
   margin: 0px 10px 20px 0px;
   border-radius: 30px;
   cursor: pointer;
+}
+#msg {
+  color: #6dfa51;
+  font-size: 20px;
 }
 .ends {
   text-align: center;
