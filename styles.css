@@ -250,6 +250,9 @@ header.sticky {
   line-height: 28px;
   margin-bottom: 10px;
 }
+.about-text span {
+  color: var(--main-color);
+}
 .heading {
   text-align: center;
 }
