@@ -277,8 +277,8 @@ header.sticky {
 }
 .col img {
   max-width: 100%;
-  width: 480px;
-  height: auto;
+  width: 420px;
+  height: 520px;
   object-fit: cover;
   border-radius: 12px;
 }
@@ -308,7 +308,7 @@ header.sticky {
   transition: all 0.4s;
 }
 .layer:hover h3 {
-  bottom: 52%;
+  bottom: 60%;
   opacity: 1;
 }
 
@@ -325,8 +325,17 @@ header.sticky {
   transition: all 0.4s;
 }
 .layer:hover h5 {
-  bottom: 48%;
+  bottom: 42%;
   opacity: 1;
+}
+.layer h5 a {
+  padding: 0px 18px;
+  color: #f75023;
+  border: 1px solid var(--second-color);
+  border-radius: 15px;
+}
+.layer h5 a:hover {
+  color: #ffffff;
 }
 .contact {
   background: #8067f0eb;
@@ -478,6 +487,10 @@ header.sticky {
     width: 280px;
   }
   .col img {
+    width: 100%;
+    height: auto;
+  }
+  .layer {
     width: 100%;
   }
 }
